@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stefano Carbone | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio di Stefano Carbone, laureato in Informatica con focus su sviluppo software, workflow AI, backend e analisi dei dati."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero" id="home">
+        <nav class="topbar">
+          <a class="brand" href="#home">SC</a>
+          <div class="topbar-links">
+            <a href="#projects">Progetti</a>
+            <a href="#skills">Competenze</a>
+            <a href="#journey">Percorso</a>
+            <a href="#contact">Contatti</a>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-main reveal">
+            <p class="eyebrow">Portfolio 2026</p>
+            <h1>Stefano Carbone</h1>
+            <p class="hero-role">
+              Sviluppatore software junior con focus su full-stack, automazione e AI applicata.
+            </p>
+            <p class="hero-summary">
+              Laureato in Informatica all'Università di Pisa. Progetto sistemi che uniscono
+              backend, interfacce, dati e workflow intelligenti, con attenzione alla qualità del
+              codice e all'utilità concreta del software.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Vedi i progetti</a>
+              <a class="button button-secondary" href="./assets/docs/Stefano-Carbone-CV.pdf" download>
+                Scarica il CV
+              </a>
+            </div>
+            <div class="hero-links">
+              <a href="mailto:stefanocarbone30@gmail.com">stefanocarbone30@gmail.com</a>
+              <a
+                href="https://www.linkedin.com/in/stefano-carbone-225a84252"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <dl class="hero-meta">
+              <div>
+                <dt>Base</dt>
+                <dd>Italia</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Backend, AI workflow, data analysis</dd>
+              </div>
+              <div>
+                <dt>Disponibilità</dt>
+                <dd>Ruoli junior e collaborazioni</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="hero-canvas reveal" aria-hidden="true">
+            <article class="canvas-paper">
+              <span class="canvas-kicker">Tesi di laurea</span>
+              <h2>Automazione dell'analisi di ticket e ordini</h2>
+              <p>n8n, database vettoriali e modelli di linguaggio locali</p>
+              <span class="paper-mark">Università di Pisa</span>
+            </article>
+
+            <article class="canvas-terminal">
+              <div class="terminal-top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>./client</p>
+              <p>1. Registrazione</p>
+              <p>2. Login</p>
+              <p>5. Ordine limite</p>
+              <p>9. Storico prezzi</p>
+            </article>
+
+            <article class="canvas-chart">
+              <span class="chart-tag">Bitcoin analysis</span>
+              <div class="chart-row chart-row-top">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="chart-row chart-row-bottom">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </article>
+          </aside>
+        </div>
+
+        <div class="hero-strip reveal">
+          <span>Java</span>
+          <span>C</span>
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>n8n</span>
+          <span>Qdrant</span>
+          <span>PostgreSQL</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="section intro reveal" id="about">
+          <div class="section-heading">
+            <p class="section-kicker">Profilo</p>
+            <h2>Costruisco software utile, leggibile e orientato ai problemi reali.</h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              Negli ultimi anni ho lavorato su progetti universitari e su un'esperienza full-stack
+              in azienda, spaziando da sistemi concorrenti e programmazione di rete a workflow AI,
+              analisi di dataset e interfacce web.
+            </p>
+            <p>
+              Mi interessa soprattutto il punto in cui progettazione software, dati e automazione si
+              incontrano: architetture affidabili, flussi chiari e strumenti che migliorano davvero
+              il lavoro di chi li usa.
+            </p>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Progetti selezionati</p>
+            <h2>Quattro lavori che raccontano bene il mio modo di sviluppare.</h2>
+          </div>
+
+          <article class="project reveal project--ai">
+            <div class="project-copy">
+              <p class="project-index">01</p>
+              <h3>Automazione dell'analisi di ticket e ordini con AI locale</h3>
+              <p class="project-summary">
+                Progetto di tesi e tirocinio sviluppato per automatizzare l'analisi di ticket
+                aziendali e ordini, usando workflow n8n, database vettoriali, modelli linguistici
+                locali e pubblicazione automatica dei report.
+              </p>
+              <ul class="project-points">
+                <li>Architettura RAG con esecuzione locale per proteggere dati sensibili.</li>
+                <li>Ricerca semantica su ticket storici e rilevamento anomalie sugli ordini.</li>
+                <li>Interfaccia web per consultare i report generati automaticamente.</li>
+              </ul>
+              <p class="project-stack">
+                n8n, React, Docker, Qdrant, LM Studio, PostgreSQL, Informix, Ghost
+              </p>
+              <div class="project-links">
+                <a href="./assets/docs/Stefano-Carbone-Tesi.pdf" target="_blank" rel="noreferrer">
+                  Apri la tesi
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" aria-hidden="true">
+              <div class="visual-paper">
+                <span class="visual-paper-mark">Università di Pisa</span>
+                <h4>TESI DI LAUREA</h4>
+                <p>Automazione dell'analisi di ticket e ordini mediante workflow n8n.</p>
+                <div class="visual-paper-lines">
+                  <span>Qdrant</span>
+                  <span>LM Studio</span>
+                  <span>Docker</span>
+                  <span>React</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal project--java">
+            <div class="project-copy">
+              <p class="project-index">02</p>
+              <h3>Order book concorrente con comunicazione TCP/UDP</h3>
+              <p class="project-summary">
+                Applicazione Java client/server per la gestione di ordini bid e ask con code di
+                priorità, stop order, persistenza JSON e notifiche UDP verso i client registrati.
+              </p>
+              <ul class="project-points">
+                <li>Gestione concorrente delle connessioni con thread e strutture thread-safe.</li>
+                <li>Esecuzione di ordini market, limit e stop con matching parziale o totale.</li>
+                <li>Salvataggio automatico dello stato e chiusura sicura del server.</li>
+              </ul>
+              <p class="project-stack">
+                Java, TCP, UDP, Gson, JSON, ConcurrentHashMap, PriorityBlockingQueue
+              </p>
+              <div class="project-links">
+                <a href="./assets/docs/Java-OrderBook-Report.pdf" target="_blank" rel="noreferrer">
+                  Apri la relazione
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" aria-hidden="true">
+              <div class="visual-terminal">
+                <div class="terminal-top">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <p class="terminal-title">--- BINANCE ---</p>
+                <p>1. Registrazione</p>
+                <p>2. Aggiornamento Credenziali</p>
+                <p>3. Login</p>
+                <p>5. Inserisci Ordine Limite</p>
+                <p>6. Inserisci Ordine di Mercato</p>
+                <p>7. Inserisci Ordine Stop</p>
+                <p>9. Storico prezzi</p>
+                <p class="terminal-prompt">Seleziona un'opzione: _</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal project--data">
+            <div class="project-copy">
+              <p class="project-index">03</p>
+              <h3>Analisi Bitcoin tra mining pool, scraping e dataset storici</h3>
+              <p class="project-summary">
+                Progetto di data analysis su transazioni Bitcoin con acquisizione di indirizzi via
+                Selenium e analisi di wallet, fee e distribuzione dei blocchi minati tramite Pandas.
+              </p>
+              <ul class="project-points">
+                <li>Scraping di wallet da WalletExplorer per identificare cluster rilevanti.</li>
+                <li>Elaborazione di dataset blockchain dal blocco genesi al 2012.</li>
+                <li>Visualizzazioni su mining concentration e dinamiche delle fee.</li>
+              </ul>
+              <p class="project-stack">
+                Python, Pandas, Selenium, Jupyter Notebook, Matplotlib
+              </p>
+              <div class="project-links">
+                <a href="./assets/docs/Bitcoin-WebScraping-Report.pdf" target="_blank" rel="noreferrer">
+                  Apri la relazione
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" aria-hidden="true">
+              <div class="visual-graphs">
+                <div class="graph-panel">
+                  <span class="graph-label">Differenza di timestamp</span>
+                  <div class="graph-plot">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="graph-panel">
+                  <span class="graph-label">Differenza tra outputs consecutivi</span>
+                  <div class="graph-plot graph-plot-bottom">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal project--c">
+            <div class="project-copy">
+              <p class="project-index">04</p>
+              <h3>Paroliere multiplayer client/server in C</h3>
+              <p class="project-summary">
+                Sistema di gioco in rete sviluppato in C con server TCP, gestione concorrente dei
+                client, dizionario su trie, matrice di gioco e classifica aggiornata in tempo reale.
+              </p>
+              <ul class="project-points">
+                <li>Parsing dei parametri runtime e configurazione flessibile del server.</li>
+                <li>Thread dedicati per tempo di gioco, disconnessioni, classifica e gestione match.</li>
+                <li>Utilizzo di mutex, segnali e strutture dinamiche per sincronizzazione e cleanup.</li>
+              </ul>
+              <p class="project-stack">
+                C, socket TCP, pthread, trie, segnali Unix, makefile
+              </p>
+              <div class="project-links">
+                <a href="./assets/docs/C-Paroliere-Report.pdf" target="_blank" rel="noreferrer">
+                  Apri la relazione
+                </a>
+              </div>
+            </div>
+            <div class="project-visual" aria-hidden="true">
+              <div class="visual-terminals">
+                <div class="mini-terminal">
+                  <div class="terminal-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p class="terminal-title">server</p>
+                  <p>./paroliere_srv 127.0.0.1 1071</p>
+                  <p>thread timer avviato</p>
+                  <p>server in ascolto</p>
+                </div>
+                <div class="mini-terminal">
+                  <div class="terminal-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p class="terminal-title">client</p>
+                  <p>./paroliere_cl 127.0.0.1 1071</p>
+                  <p>utente registrato</p>
+                  <p>matrice ricevuta</p>
+                  <p>parola inviata: RETE</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section skills reveal" id="skills">
+          <div class="section-heading">
+            <p class="section-kicker">Competenze</p>
+            <h2>Un profilo tecnico costruito tra sistemi, dati e sviluppo applicativo.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div>
+              <h3>Linguaggi</h3>
+              <p>Java, C, Python, JavaScript, TypeScript, SQL, OCaml, Assembly ARM</p>
+            </div>
+            <div>
+              <h3>Frontend & web</h3>
+              <p>React, HTML, CSS, interfacce per reportistica e applicazioni aziendali</p>
+            </div>
+            <div>
+              <h3>Backend & sistemi</h3>
+              <p>Socket TCP/UDP, concorrenza, API, persistenza JSON, thread management</p>
+            </div>
+            <div>
+              <h3>Dati & AI workflow</h3>
+              <p>n8n, Qdrant, LM Studio, RAG locale, Pandas, Selenium, analisi semantica</p>
+            </div>
+            <div>
+              <h3>Database & tool</h3>
+              <p>PostgreSQL, Informix, Git, Docker, Jupyter, Linux, Office</p>
+            </div>
+            <div>
+              <h3>Soft skills</h3>
+              <p>Problem solving, lavoro in team, autonomia, ascolto attivo, gestione del tempo</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section journey" id="journey">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Percorso</p>
+            <h2>Studio e pratica applicata, con un passaggio concreto in azienda.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <p class="timeline-year">2025 - 2026</p>
+              <div>
+                <h3>Evision srl · Sviluppatore software</h3>
+                <p>
+                  Esperienza full-stack sulla gestione dei ticket aziendali, integrazione database e
+                  sperimentazione di sistemi RAG per ricerca semantica e supporto operativo.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <p class="timeline-year">2022 - 2026</p>
+              <div>
+                <h3>Laurea in Informatica · Università di Pisa</h3>
+                <p>
+                  Percorso focalizzato su programmazione, algoritmi, basi di dati, reti,
+                  architetture, sistemi operativi e ingegneria del software.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <p class="timeline-year">2017 - 2022</p>
+              <div>
+                <h3>Diploma SIA · ITCA Fabio Besta</h3>
+                <p>
+                  Formazione tecnico-economica con basi di sistemi informativi aziendali,
+                  programmazione, database e analisi dei processi d'impresa.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact reveal" id="contact">
+          <div class="section-heading">
+            <p class="section-kicker">Contatti</p>
+            <h2>Se vuoi parlare di un ruolo, di un progetto o di una collaborazione, possiamo sentirci.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <a href="mailto:stefanocarbone30@gmail.com">stefanocarbone30@gmail.com</a>
+            <a href="tel:+393314720035">+39 331 4720035</a>
+            <a
+              href="https://www.linkedin.com/in/stefano-carbone-225a84252"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a href="./assets/docs/Stefano-Carbone-CV.pdf" download>Download CV</a>
+          </div>
+
+          <div class="contact-note">
+            <p>Italiano madrelingua · Inglese B1 · Spagnolo B1</p>
+            <p>Questo portfolio è stato costruito a partire dai progetti universitari, dal CV e dalla documentazione disponibile in locale.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
