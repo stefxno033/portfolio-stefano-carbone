@@ -514,6 +514,12 @@ h2 {
     linear-gradient(180deg, #f1ede5, #dfd6c8);
 }
 
+.project--booking .project-visual {
+  background:
+    radial-gradient(circle at 75% 18%, rgba(217, 164, 75, 0.22), transparent 10rem),
+    linear-gradient(160deg, #f4efe6, #e1efe6 72%, #d7e4ef);
+}
+
 .project--c .project-visual {
   background:
     radial-gradient(circle at 20% 20%, rgba(184, 93, 42, 0.22), transparent 10rem),
@@ -522,6 +528,7 @@ h2 {
 
 .visual-paper,
 .visual-terminal,
+.visual-calendar,
 .visual-graphs,
 .visual-terminals {
   position: absolute;
@@ -578,6 +585,55 @@ h2 {
 .terminal-prompt {
   margin-top: 0.55rem;
   color: rgba(217, 164, 75, 0.92);
+}
+
+.visual-calendar {
+  padding: 1rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.48);
+  border: 1px solid rgba(23, 20, 17, 0.08);
+}
+
+.calendar-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.calendar-header span {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  color: rgba(20, 18, 15, 0.58);
+  font-weight: 700;
+}
+
+.calendar-header strong {
+  font-size: 1.45rem;
+  color: var(--bg-strong);
+  font-weight: 700;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.calendar-grid span {
+  aspect-ratio: 1 / 1;
+  border-radius: 0.9rem;
+  background: rgba(20, 18, 15, 0.06);
+}
+
+.calendar-grid .is-booked {
+  background: linear-gradient(180deg, rgba(13, 107, 104, 0.88), rgba(13, 107, 104, 0.45));
+}
+
+.calendar-grid .is-admin {
+  background: linear-gradient(180deg, rgba(184, 93, 42, 0.88), rgba(184, 93, 42, 0.45));
 }
 
 .visual-graphs {
